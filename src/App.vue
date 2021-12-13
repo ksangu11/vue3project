@@ -2,7 +2,9 @@
 <div class="container">
   <Header />
   <Gallery />
-  <Button text="Reach Out"/>
+  <div class="btn-block">
+  <Button text="Send an email"/>
+  </div>
 </div>
 </template>
 
@@ -38,12 +40,11 @@ body{
   background: rgb(238, 246, 248);
 }
 .btn{
-  display: inlne-block;
   background: rgb(4, 41, 77);
   color: #fff;
   border: none;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 15px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
@@ -58,7 +59,8 @@ body{
   transform: scale(0.98);
 }
 .btn-block{
-  display: block;
+  display: flex;
+  align-items: center;
   width: 100%;
 }
 </style>

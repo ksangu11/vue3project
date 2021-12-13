@@ -13,7 +13,7 @@ export default{
     },
     methods:{
     onClick(){
-        console.log('clicked');
+        window.location.href = "mailto:ktobin1@bu.edu";
     },
     }
 }
@@ -22,5 +22,9 @@ export default{
 <style scoped>
 button{
     margin: 15px;
+}
+button.btn{
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
