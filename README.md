@@ -1,14 +1,14 @@
 # Week 6
 ### Requirements
--[x] 4 Images
--[x] Use Vue framework/library
--[x] Add hover functionality to images
--[x] Page styling
+- [x] 4 Images
+- [x] Use Vue framework/library
+- [x] Add hover functionality to images
+- [x] Page styling
 
 ### Additional Includes
--[x] Inclusion of 3 separate vue components
--[x] Used 8 photos
--[x] Addition of a button 
+- [x] Inclusion of 3 separate vue components
+- [x] Used 8 photos
+- [x] Addition of a button 
 
 
 
